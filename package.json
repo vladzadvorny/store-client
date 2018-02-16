@@ -5,6 +5,11 @@
   "repository": "https://github.com/vladzadvorny/store-client.git",
   "author": "Vlad Zadvorny <vladzadvorny@icloud.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
     "eslint": "^4.17.0",
@@ -13,5 +18,12 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.1"
+  },
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "next": "^5.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
