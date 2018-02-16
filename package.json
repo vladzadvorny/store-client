@@ -1,0 +1,17 @@
+{
+  "name": "store-client",
+  "version": "0.0.1",
+  "description": "The frontend for a TStore using Next.js and Apollo",
+  "repository": "https://github.com/vladzadvorny/store-client.git",
+  "author": "Vlad Zadvorny <vladzadvorny@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1"
+  }
+}
